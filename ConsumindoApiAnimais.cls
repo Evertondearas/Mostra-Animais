@@ -1,7 +1,7 @@
 public class ConsumindoApiAnimais {
 
     public static HttpResponse chamadaApi(){
-        
+       //Fazendo callout 
         HTTP http = new HTTP();
         httpRequest request = new HttpRequest();
         request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
@@ -9,7 +9,9 @@ public class ConsumindoApiAnimais {
         HttpResponse response = Http.send(request); 
         return response;
      }
-        
+
+    //Função para callout ser usado no lwc
+
     @AuraEnabled(cacheable=true)
     public static List<object> usoLWC(){
         
