@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Lista de Animais">
+        <div class="slds-m-around_medium">
+            <template lwc:if={animals}>
+                <template for:each={animals} for:item="animal">
+                    <p key={animal.Id}><b>Animal name:</b> {animal}.</p>
+                </template>
+            </template>
+            <template lwc:elseif={error}>
+                <p>{error}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>
