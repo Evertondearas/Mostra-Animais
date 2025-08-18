@@ -21,3 +21,6 @@ The `sfdx-project.json` file contains useful configuration information for your 
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
 - [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
 >>>>>>> e770ae1 (Adiciona LWC toAPI e estrutura inicial do projeto SFDX)
+>>>>>>>
+>>>>>>> <img width="1919" height="863" alt="image" src="https://github.com/user-attachments/assets/2dc0c08a-8f8b-4351-b4ba-851608b0bd31" />
+
