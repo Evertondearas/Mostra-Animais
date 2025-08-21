@@ -5,7 +5,7 @@ export default class ToAPI extends LightningElement {
     animals;
     error;
 
-    connectedCallback() {
+    connectedCallback() { //chama o loadAnimals assim que o componente inicia.
         this.loadAnimals();
     }
 
